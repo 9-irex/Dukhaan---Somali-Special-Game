@@ -77,7 +77,7 @@ function restartGame() {
   setTimeout(() => {
     document.querySelector(".display p").textContent =
       "The Game Will Be Restarted";
-    window.location.reload;
+    location.reload;
   }, 20);
 }
 
